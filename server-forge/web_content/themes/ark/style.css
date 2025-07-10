@@ -1,0 +1,66 @@
+/* 
+   ARK - High-Tech Natural Theme
+*/
+
+body {
+    font-family: 'Orbitron', sans-serif; /* A futuristic font */
+    background-color: #0a141d; /* Deep blue */
+    color: #e5faff;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.transparenttextures.com/patterns/hexellence.png');
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-header {
+    background-color: rgba(10, 25, 40, 0.8);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #00d8ff; /* Bright Cyan */
+    border-radius: 10px;
+}
+
+.logo h1 a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav ul li a {
+    color: #e5faff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px; /* Rounded pills */
+    transition: background-color 0.3s;
+}
+
+.main-nav ul li a:hover, .main-nav ul li a.active {
+    background-color: #00d8ff;
+    color: #0a141d;
+}
+
+main {
+    background-color: rgba(10, 25, 40, 0.9);
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #00d8ff;
+}
+
+h2 {
+    color: #00d8ff;
+    border-bottom: 1px solid #3a3f4b;
+    padding-bottom: 10px;
+}
+
+.main-footer a {
+    color: #00d8ff;
+}

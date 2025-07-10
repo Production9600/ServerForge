@@ -1,0 +1,61 @@
+# Image Creation To-Do List for Server Forge Clan Page
+
+This file lists the images needed to complete the website's design. Each theme requires its own set of images to create a unique look and feel.
+
+---
+
+### 1. Theme: 7 Days to Die (`themes/7d2d/`)
+
+- **Logo (`logo.png`):**
+  - **Style:** Apocalyptic, grungy, distressed. Text should be your clan name. Consider a biohazard or skull symbol.
+  - **Dimensions:** Approx. 300x80 pixels.
+  - **Save Location:** `server-forge/web_content/themes/7d2d/images/`
+
+- **Header Background (`header_bg.jpg`):**
+  - **Style:** Dark, gritty texture like cracked concrete or rusty metal.
+  - **Dimensions:** 1200x150 pixels.
+  - **Save Location:** `server-forge/web_content/themes/7d2d/images/`
+
+---
+
+### 2. Theme: CS2 (`themes/cs2/`)
+
+- **Logo (`logo.png`):**
+  - **Style:** Modern, tactical, clean but with a sharp edge. Maybe a stencil font.
+  - **Dimensions:** Approx. 300x80 pixels.
+  - **Save Location:** `server-forge/web_content/themes/cs2/images/`
+
+- **Header Background (`header_bg.jpg`):**
+  - **Style:** A dark carbon fiber pattern, a blueprint grid, or a clean dark metal texture.
+  - **Dimensions:** 1200x150 pixels.
+  - **Save Location:** `server-forge/web_content/themes/cs2/images/`
+
+---
+
+### 3. Theme: Call of Duty (`themes/cod/`)
+
+- **Logo (`logo.png`):**
+  - **Style:** Modern military, stencil font, maybe with a subtle camouflage pattern in the text.
+  - **Dimensions:** Approx. 300x80 pixels.
+  - **Save Location:** `server-forge/web_content/themes/cod/images/`
+
+- **Header Background (`header_bg.jpg`):**
+  - **Style:** A dark, digital camouflage pattern or a brushed dark metal texture.
+  - **Dimensions:** 1200x150 pixels.
+  - **Save Location:** `server-forge/web_content/themes/cod/images/`
+
+---
+
+### 4. Theme: ARK (`themes/ark/`)
+
+- **Logo (`logo.png`):**
+  - **Style:** High-tech, futuristic, with glowing blue or cyan elements. Maybe incorporating a dinosaur fossil or a tek-style pattern.
+  - **Dimensions:** Approx. 300x80 pixels.
+  - **Save Location:** `server-forge/web_content/themes/ark/images/`
+
+- **Header Background (`header_bg.jpg`):**
+  - **Style:** A hexagonal pattern, a futuristic circuit board design, or a bio-luminescent cave texture.
+  - **Dimensions:** 1200x150 pixels.
+  - **Save Location:** `server-forge/web_content/themes/ark/images/`
+
+---

@@ -1,0 +1,13 @@
+# Ignore user-specific directories and files for Server Forge
+
+# Directory where game servers are installed
+server-forge/servers/
+
+# Directory for logs
+server-forge/logs/
+
+# Directory for user-specific configurations
+server-forge/config/
+
+# Directory for the downloaded SteamCMD
+server-forge/steamcmd/
