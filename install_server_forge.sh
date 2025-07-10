@@ -94,12 +94,12 @@ run_installation() {
         echo "Error: Could not find a supported package manager." >&2; exit 1
     fi
     rm -rf "$INSTALL_DIR"; git clone "$GIT_REPO_URL" "$INSTALL_DIR"
-    STEAMCMD_DIR="$INSTALL_DIR/steamcmd"; mkdir -p "$STEAMCMD_DIR"
+    STEAMCMD_DIR="$INSTALL_DIR/server-forge/steamcmd"; mkdir -p "$STEAMCMD_DIR"
     wget -qO "$STEAMCMD_DIR/steamcmd_linux.tar.gz" "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz"
     tar -xzf "$STEAMCMD_DIR/steamcmd_linux.tar.gz" -C "$STEAMCMD_DIR"; rm "$STEAMCMD_DIR/steamcmd_linux.tar.gz"
     bash "$STEAMCMD_DIR/steamcmd.sh" +quit
-    chmod +x "$INSTALL_DIR/server-forge.sh"
-    ln -sf "$INSTALL_DIR/server-forge.sh" "$SYMLINK_PATH"
+    chmod +x "$INSTALL_DIR/server-forge/server-forge.sh"
+    ln -sf "$INSTALL_DIR/server-forge/server-forge.sh" "$SYMLINK_PATH"
 }
 
 # --- Hauptskript ---
